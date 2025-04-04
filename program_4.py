@@ -35,7 +35,7 @@ class Employee:
     Department: {self.__department}'''
 
 def main():
-    employee_1 = Employee("Susan Meyers", 47899, "Accounting", "Vice president")
+    employee_1 = Employee("Susan Meyers", 47899, "Accounting", "Vice President")
     employee_2 = Employee("Mark Jones", 39119, "IT", "Programmer")
     employee_3 = Employee("Joy Rogers", 81774, "Manufacturing", "Engineer")
     print(f"{employee_1.__str__()}\n{employee_2.__str__()}\n{employee_3}")
